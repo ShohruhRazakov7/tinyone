@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+@font-face {
+    font-family: PT Sans Bold;
+    src: url(PT_Sans/PTSans-Bold.ttf);
+}
+@font-face {
+    font-family: PT Sans;
+    src: url(PT_Sans/PTSans-Regular.ttf);
+}
+header{
+    background-color: #fcdb00;
+    height: 700px;
+    padding-top: 70px;
+    font-family: PT Sans Bold;
+}
+header nav {
+    padding: 10px 16px;
+    background: #fcdb00;
+}
+.content {
+    padding: 0;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.sticky + .content {
+    padding-top: 102px;
+}
+header nav{
+    font-size: 22px;
+}
+header nav img{
+    float: left;
+    margin-left: 180px;
+}
+header nav ul{
+    list-style-type: none;
+    margin-left: 750px;
+}
+header nav ul li{
+    display: inline-block;
+    margin: 8px 0 0 62px;
+}
+header nav ul li a{
+    color: #010101;
+    text-decoration: none;
+}
+header .main1 .img1{
+    float: right;
+    padding: 67px 195px 0 0;
+}
+header .main1 h1{
+    padding-left: 190px;
+    font-size: 36px;
+    padding-top: 134px;
+    margin-bottom: 22px;
+}
+header .main1 h2{
+    margin-left: 190px;
+    width: 378px;
+    font-size: 20px;
+    color: #313841;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: PT Sans;
+    margin-bottom: 23px;
+}
+header .main1 p{
+    margin-left: 190px;
+    width: 395px;
+    height: 101px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    font-family: PT Sans;
+    color: #555555;
+}
+header .main1 .Icons{
+    margin-left: 190px;
+    width: 229px;
+    margin-top: 30px;
+}
+header .main1 .Icons img{
+    margin-right: 38px;
+}
+.main2{
+    height: 750px;
+    padding-top: 90px;
+}
+.main2 .centerh1, .centerp{
+    text-align: center;
+}
+.main2 .centerh1{
+    font-size: 32px;
+    line-height: 32px;
+    color: #010101;
+    font-weight: 700;
+    font-family: "PT Sans";
+}
+.main2 .centerp{
+    margin: auto;
+    padding-top: 16px;
+    width: 761px;
+    height: 150px;
+    font-size: 20px;
+    line-height: 24px;
+    color: #313841;
+    font-weight: 400;
+    font-family: PT Sans;
+    text-align: center;
+}
+.bar1, .bar2, .bar3, .bar4, .bar5, .bar6{
+    width: 330px;
+    height: 130px;
+}
+.Bbar1{
+    display: flex;
+    margin-left: 210px;
+}
+.bar1 img{
+    float: left;
+}
+.bar1 h1, p{
+    margin-left: 67px;
+}
+.bar1 h1{
+    font-size: 22px;
+    line-height: 24px;
+    color: #010101;
+    font-weight: 400;
+    font-family: "PT Sans Bold";
+    margin-bottom: 15px;
+}
+.bar1 p{
+    width: 221px;
+    height: 91px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #898989;
+    font-weight: 400;
+    font-family: "PT Sans";
+}
+.bar2 img{
+    float: left;
+}
+.bar2 h1, p{
+    margin-left: 67px;
+}
+.bar2 h1{
+    font-size: 22px;
+    line-height: 24px;
+    color: #010101;
+    font-weight: 400;
+    font-family: "PT Sans Bold";
+    margin-bottom: 15px;
+}
+.bar2 p{
+    width: 221px;
+    height: 91px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #898989;
+    font-weight: 400;
+    font-family: "PT Sans";
+}
+.bar3 img{
+    float: left;
+}
+.bar3 h1, p{
+    margin-left: 67px;
+}
+.bar3 h1{
+    font-size: 22px;
+    line-height: 24px;
+    color: #010101;
+    font-weight: 400;
+    font-family: "PT Sans Bold";
+    margin-bottom: 15px;
+}
+.bar3 p{
+    width: 221px;
+    height: 91px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #898989;
+    font-weight: 400;
+    font-family: "PT Sans";
+}
+.Bbar2{
+    display: flex;
+    margin-left: 210px;
+    margin-top: 87px;
+}
+.bar4 img{
+    float: left;
+}
+.bar4 h1, p{
+    margin-left: 67px;
+}
+.bar4 h1{
+    font-size: 22px;
+    line-height: 24px;
+    color: #010101;
+    font-weight: 400;
+    font-family: "PT Sans Bold";
+    margin-bottom: 15px;
+}
+.bar4 p{
+    width: 221px;
+    height: 91px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #898989;
+    font-weight: 400;
+    font-family: "PT Sans";
+}
+.bar5 img{
+    float: left;
+}
+.bar5 h1, p{
+    margin-left: 67px;
+}
+.bar5 h1{
+    font-size: 22px;
+    line-height: 24px;
+    color: #010101;
+    font-weight: 400;
+    font-family: "PT Sans Bold";
+    margin-bottom: 15px;
+}
+.bar5 p{
+    width: 221px;
+    height: 91px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #898989;
+    font-weight: 400;
+    font-family: "PT Sans";
+}
+.bar6 img{
+    float: left;
+}
+.bar6 h1, p{
+    margin-left: 67px;
+}
+.bar6 h1{
+    font-size: 22px;
+    line-height: 24px;
+    color: #010101;
+    font-weight: 400;
+    font-family: "PT Sans Bold";
+    margin-bottom: 15px;
+}
+.bar6 p{
+    width: 221px;
+    height: 91px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #898989;
+    font-weight: 400;
+    font-family: "PT Sans";
+}
+footer{
+    height: 400px;
+    background-color: #010101;
+    padding-top: 96px;
+}
+footer h1{
+    margin: auto;
+    width: 761px;
+    font-size: 32px;    
+    line-height: 32px;
+    color: #fcdb00;
+    font-weight: 700;
+    font-family: "PT Sans Bold";
+    text-align: center;
+    margin-bottom: 17px;
+}
+footer p{
+    margin: auto;
+    width: 761px;
+    font-size: 20px;
+    line-height: 24px;
+    color: #898989;
+    font-weight: 400;
+    font-family: "PT Sans";
+    text-align: center;
+    margin-bottom: 41px;
+}
+footer .input1{
+    width: 581px;
+    height: 50px;
+    margin-left: 308px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #898989;
+    font-weight: 400;
+    font-family: "PT Sans";
+    padding-left: 24px;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+footer .input2{
+    width: 127px;
+    height: 51px;
+    margin-left: 20px;
+    font-size: 16px;
+    background-color: #fcdb00;
+    line-height: 24px;
+    color: #010101;
+    font-weight: 700;
+    font-family: "PT Sans Bold";
+    border-radius: 8px;
+    border: 1px solid black;
+}
+footer .sub{
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "PT Sans";
+    text-align: center;
+    margin-top: 56px;
+}
